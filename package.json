@@ -17,6 +17,7 @@
     "eslint-config-prettier": "^8.8.0",
     "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.1",
+    "jsdoc": "^4.0.3",
     "mini-css-extract-plugin": "^2.7.5",
     "postcss": "^8.4.23",
     "postcss-loader": "^7.3.0",
@@ -42,6 +43,7 @@
     "lint": "eslint --ext .js,.ts ./src",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier ./src --write",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "jsdoc": "jsdoc -c jsdoc.json"
   }
 }
